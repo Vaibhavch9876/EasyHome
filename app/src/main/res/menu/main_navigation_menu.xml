@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Add Income"
+        android:id="@+id/add_income"
+        android:icon="@drawable/add_income_icon"/>
+    <item android:title="Add Expense"
+        android:id="@+id/add_expense"
+        android:icon="@drawable/add_expense_icon"/>
+    <item android:title="All Transactions"
+        android:id="@+id/show_transactions"
+        android:icon="@drawable/transaction_history_icon"/>
+
+</menu>

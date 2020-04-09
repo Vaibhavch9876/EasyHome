@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".EventFragment">
+
+    <RelativeLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient_background"
+        tools:context=".MainActivity">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="top">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:id="@+id/event_fragment_container"
+                android:layout_height="wrap_content">
+
+
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:layout_width="match_parent"
+            android:id="@+id/event_bottom_navigation_view"
+            android:layout_height="70dp"
+            android:background="@color/colorPrimaryDark"
+            android:layout_alignParentBottom="true"
+            app:itemTextColor="#FFF"
+            app:itemIconTint="#fff"
+            app:menu="@menu/event_navigation_menu" />
+
+    </RelativeLayout>
+
+</FrameLayout>

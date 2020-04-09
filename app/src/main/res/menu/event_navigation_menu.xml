@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/all_events"
+        android:icon="@drawable/upcoming_event_icon"
+        android:title="All Events" />
+    <item
+        android:id="@+id/add_events"
+        android:icon="@drawable/add_event_icon"
+        android:title="Add New Event" />
+    <item
+        android:id="@+id/clear_all_events"
+        android:icon="@drawable/delete_all_events"
+        android:title="Delete All Events" />
+
+
+</menu>

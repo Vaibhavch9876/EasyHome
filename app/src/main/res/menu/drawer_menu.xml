@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:id="@+id/MainItems">
+
+        <item
+            android:id="@+id/budget"
+            android:icon="@drawable/budget_icon"
+            android:title="Budget" />
+        <item
+            android:id="@+id/event"
+            android:icon="@drawable/event_icon"
+            android:title="Event" />
+
+    </group>
+
+    <group android:id="@+id/SecondaryItems">
+
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/about_icon"
+            android:title="About" />
+
+        <item
+            android:id="@+id/help"
+            android:icon="@drawable/help_icon"
+            android:title="Help" />
+
+        <item
+            android:id="@+id/share"
+            android:icon="@drawable/share_icon"
+            android:title="Share" />
+
+        <item
+            android:id="@+id/rate_us"
+            android:icon="@drawable/star_icon"
+            android:title="Rate Us" />
+
+        <item
+            android:id="@+id/report_bug"
+            android:icon="@drawable/bug_report_icon"
+            android:title="Report Bug" />
+
+        <item
+            android:id="@+id/suggestions"
+            android:icon="@drawable/suggestion_icon"
+            android:title="Suggestions" />
+
+    </group>
+
+
+</menu>
